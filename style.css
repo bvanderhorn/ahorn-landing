@@ -277,6 +277,7 @@ a:hover { color: var(--accent-hover); }
 .app-card-purple { background: linear-gradient(180deg, #ede9fe 0%, #f5f3ff 40%, #fff 60%); border-color: #ddd6fe; }
 .app-card-orange { background: linear-gradient(180deg, #fff1e6 0%, #fff7f0 40%, #fff 60%); border-color: #fed7aa; }
 .app-card-green  { background: linear-gradient(180deg, #d1fae5 0%, #ecfdf5 40%, #fff 60%); border-color: #a7f3d0; }
+.app-card-pink   { background: linear-gradient(180deg, #fce7f3 0%, #fdf2f8 40%, #fff 60%); border-color: #fbcfe8; }
 
 .app-screenshot {
   width: 100%;
@@ -370,6 +371,7 @@ a:hover { color: var(--accent-hover); }
 .tag-orange { background: #fff4ed; color: #e85d26; }
 .tag-green  { background: #ecfdf5; color: #059669; }
 .tag-blue   { background: #eff6ff; color: #2563eb; }
+.tag-pink   { background: #fdf2f8; color: #e11d48; }
 
 /* === About === */
 .about-inner { max-width: 700px; margin: 0 auto; }
