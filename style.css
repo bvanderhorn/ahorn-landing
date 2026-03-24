@@ -291,6 +291,28 @@ a:hover { color: var(--accent-hover); }
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.device-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 100px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.device-desktop {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.device-mobile {
+  background: #faf5ff;
+  color: #9333ea;
 }
 
 .app-info p {
