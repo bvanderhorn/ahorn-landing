@@ -1,0 +1,17 @@
+services:
+  ahorn-landing:
+    build: .
+    container_name: ahorn-landing
+    restart: unless-stopped
+    networks:
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.ahorn-landing.rule=Host(`ahorn.app`)"
+      - "traefik.http.routers.ahorn-landing.entrypoints=websecure"
+      - "traefik.http.routers.ahorn-landing.tls.certresolver=letsencrypt"
+      - "traefik.http.services.ahorn-landing.loadbalancer.server.port=80"
+
+networks:
+  web:
+    external: true
